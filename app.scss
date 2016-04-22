@@ -1,0 +1,13 @@
+.number, .actions {
+  text-align: center;
+}
+
+.ui.container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+i:hover {
+  cursor: pointer
+}
