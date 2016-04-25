@@ -38,4 +38,6 @@ This is a simple test of basic CS fundamentals as well as basic Angular knowledg
 
 
 ### Solution Discussion:
-- Your solution explanation goes here.
+Initially I chose to tackle this problem using a recursive Fibonacci algorithm because it was very simple and clean. O dodn't realize how much more performant the iterative method was until I implemented it. Because of this I made it the default method.
+
+With the iterative method, I keep track of the previous Fibonacci numbers by appending numbers to an array. Given the step based scope of this app, we could make this even more performant by referring to this array rather than iterating over n steps.
